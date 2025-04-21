@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "project": "shopping-demo",
+  "rules": {
+    "deployment": {
+      "skipLinting": true,
+      "ignorePaths": ["src/generated/**/*"]
+    },
+    "database": {
+      "provider": "postgresql",
+      "connectionString": "${DATABASE_URL}"
+    },
+    "build": {
+      "command": "next build --no-lint"
+    },
+    "dev": {
+      "command": "next dev --turbopack"
+    }
+  },
+  "dependencies": {
+    "required": [
+      "tailwindcss",
+      "@tailwindcss/postcss",
+      "postcss"
+    ]
+  }
+}
