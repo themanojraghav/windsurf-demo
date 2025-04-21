@@ -73,14 +73,17 @@
   - Create `(home)` folder in `app` directory
   - Header with logo, search bar, and navigation
   - Footer with links and social media
+
 - [ ] Homepage:
   - banner carousel
   - latest products
+
 - [ ] Products Catalog:
   - Sidebar with categories and filters
   - Search results
   - Product grid
   - Pagination
+  
 - [ ] Product pages:
   - Create product detail page layout
   - Implement image gallery with thumbnails
